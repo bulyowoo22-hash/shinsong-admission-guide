@@ -1,0 +1,1060 @@
+<title>대학 및 신송고 3개년(2026-2024) 입결 비교_2028전형요약</title>
+<meta name="description" content="5등급제 내신을 9등급제로 환산하고 2028대입 3개년 배치표·우리 학교 합격사례와 비교합니다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F5F6F8;
+    --surface:#FFFFFF;
+    --surface-2:#ECEFF3;
+    --border:#DBE0E7;
+    --text:#1A2230;
+    --text-dim:#5C6675;
+    --text-faint:#8992A0;
+    --navy:#22456E;
+    --navy-strong:#173458;
+    --navy-tint:#EAF0F7;
+    --gold:#9C7A2E;
+    --gold-tint:#F6EFDD;
+    --good:#1F7A4C;
+    --good-tint:#E7F5EC;
+    --bad:#B23A2E;
+    --bad-tint:#FBEAE8;
+    --warn-tint:#FBF3E1;
+    --purple:#7C5AA6;
+    --purple-tint:#F1EAF8;
+    --shadow: 0 1px 2px rgba(20,30,50,.06), 0 4px 16px rgba(20,30,50,.05);
+    --radius: 10px;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#10141C;
+      --surface:#171D28;
+      --surface-2:#1D2431;
+      --border:#2C3546;
+      --text:#E8EBF0;
+      --text-dim:#A2ABBA;
+      --text-faint:#7A8496;
+      --navy:#7FA5D1;
+      --navy-strong:#9EBEE3;
+      --navy-tint:#1B2A3E;
+      --gold:#D8B872;
+      --gold-tint:#332A18;
+      --good:#4FB784;
+      --good-tint:#123023;
+      --bad:#E27A6E;
+      --bad-tint:#3A1E1B;
+      --warn-tint:#332C18;
+      --purple:#C9A6E0;
+      --purple-tint:#2E2538;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.35);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#10141C;
+    --surface:#171D28;
+    --surface-2:#1D2431;
+    --border:#2C3546;
+    --text:#E8EBF0;
+    --text-dim:#A2ABBA;
+    --text-faint:#7A8496;
+    --navy:#7FA5D1;
+    --navy-strong:#9EBEE3;
+    --navy-tint:#1B2A3E;
+    --gold:#D8B872;
+    --gold-tint:#332A18;
+    --good:#4FB784;
+    --good-tint:#123023;
+    --bad:#E27A6E;
+    --bad-tint:#3A1E1B;
+    --warn-tint:#332C18;
+    --purple:#C9A6E0;
+    --purple-tint:#2E2538;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:"IBM Plex Sans KR", "Pretendard", -apple-system, sans-serif;
+    padding:0 20px;
+    padding-block:0 48px;
+    line-height:1.55;
+  }
+  h1,h2,h3{
+    font-family:"Gowun Batang", "IBM Plex Sans KR", serif;
+    font-weight:700;
+    text-wrap:balance;
+    color:var(--text);
+    margin:0;
+  }
+  .num{ font-variant-numeric: tabular-nums; }
+
+  a{ color:var(--navy); }
+
+  /* ---------- header ---------- */
+  .page{ max-width:1180px; margin:0 auto; }
+  header.top{
+    padding-block:28px 18px;
+    border-bottom:1px solid var(--border);
+    display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:10px 24px;
+  }
+  header.top .titles{ display:flex; flex-direction:column; gap:4px; }
+  header.top h1{ font-size:1.5rem; letter-spacing:-.01em; }
+  header.top .sub{ color:var(--text-dim); font-size:.86rem; }
+  header.top .school{
+    font-size:.8rem; color:var(--navy); background:var(--navy-tint);
+    border:1px solid var(--border); padding:5px 12px; border-radius:999px; white-space:nowrap;
+    font-weight:600;
+  }
+
+  nav.tabs{
+    display:flex; gap:4px; margin-top:18px; border-bottom:1px solid var(--border);
+    overflow-x:auto;
+  }
+  nav.tabs button{
+    appearance:none; border:none; background:transparent; cursor:pointer;
+    font-family:inherit; font-size:.92rem; font-weight:600; color:var(--text-dim);
+    padding:11px 16px; border-bottom:2px solid transparent; white-space:nowrap;
+  }
+  nav.tabs button:hover{ color:var(--text); }
+  nav.tabs button.active{ color:var(--navy); border-bottom-color:var(--navy); }
+  nav.tabs button:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible{
+    outline:2px solid var(--navy); outline-offset:2px;
+  }
+
+  section.view{ display:none; padding-block:28px; }
+  section.view.active{ display:block; }
+
+  /* ---------- cards / panels ---------- */
+  .panel{
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+    box-shadow:var(--shadow); padding:20px;
+  }
+  .panel + .panel{ margin-top:18px; }
+  .panel h2{ font-size:1.05rem; margin-bottom:14px; }
+  .panel h2 .count{ font-family:"IBM Plex Sans KR"; font-weight:500; color:var(--text-faint); font-size:.82rem; }
+  .hint{ color:var(--text-dim); font-size:.82rem; margin-top:6px; }
+
+  .field-row{ display:flex; flex-wrap:wrap; gap:14px 18px; align-items:flex-end; }
+  .field{ display:flex; flex-direction:column; gap:6px; min-width:120px; }
+  .field label{ font-size:.78rem; font-weight:600; color:var(--text-dim); }
+  .field input[type=number], .field input[type=text], .field select{
+    font-family:inherit; font-size:.95rem; padding:9px 11px; border:1px solid var(--border);
+    border-radius:7px; background:var(--surface); color:var(--text); min-width:0;
+  }
+  .field input:focus, .field select:focus{ outline:2px solid var(--navy); outline-offset:1px; }
+  .radiogroup{ display:flex; gap:6px; }
+  .radiogroup label{
+    display:flex; align-items:center; gap:5px; font-size:.86rem; font-weight:500; color:var(--text);
+    border:1px solid var(--border); border-radius:7px; padding:7px 12px; cursor:pointer; background:var(--surface);
+  }
+  .radiogroup input{ accent-color:var(--navy); }
+  .radiogroup label:has(input:checked){ border-color:var(--navy); background:var(--navy-tint); color:var(--navy); }
+
+  button.primary{
+    appearance:none; border:none; cursor:pointer; font-family:inherit; font-weight:700; font-size:.95rem;
+    background:var(--navy); color:#fff; padding:10px 22px; border-radius:8px;
+  }
+  button.primary:hover{ background:var(--navy-strong); }
+  button.ghost{
+    appearance:none; border:1px solid var(--border); background:var(--surface); color:var(--text);
+    font-family:inherit; font-weight:600; font-size:.82rem; padding:6px 12px; border-radius:7px; cursor:pointer;
+  }
+  button.ghost:hover{ background:var(--surface-2); }
+  button.ghost.active{ border-color:var(--navy); color:var(--navy); background:var(--navy-tint); }
+
+  /* result summary tiles */
+  .result-tiles{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin-top:18px; }
+  .tile{ background:var(--surface-2); border-radius:9px; padding:14px 16px; }
+  .tile .label{ font-size:.76rem; color:var(--text-dim); font-weight:600; }
+  .tile .value{ font-size:1.7rem; font-weight:700; margin-top:4px; font-family:"Gowun Batang",serif; }
+  .tile.accent{ background:var(--navy); color:#fff; }
+  .tile.accent .label{ color:rgba(255,255,255,.75); }
+  .tile.accent .value{ color:#fff; }
+
+  table{ width:100%; border-collapse:collapse; font-size:.86rem; }
+  th,td{ text-align:left; padding:8px 9px; border-bottom:1px solid var(--border); vertical-align:top; }
+  th{ font-size:.72rem; text-transform:uppercase; letter-spacing:.03em; color:var(--text-faint); font-weight:700; white-space:nowrap; }
+  tbody tr:hover{ background:var(--surface-2); }
+  .tablewrap{ overflow-x:auto; margin-top:14px; border:1px solid var(--border); border-radius:9px; }
+  .tablewrap table{ min-width:720px; }
+  .tablewrap .tablewrap{ border:none; margin-top:8px; }
+
+  .badge{ display:inline-block; padding:2px 9px; border-radius:999px; font-size:.74rem; font-weight:700; white-space:nowrap; }
+  .badge.pass{ background:var(--good-tint); color:var(--good); }
+  .badge.wait{ background:var(--warn-tint); color:var(--gold); }
+  .badge.fail{ background:var(--bad-tint); color:var(--bad); }
+  .badge.gyeyeol-인문{ background:var(--navy-tint); color:var(--navy); }
+  .badge.gyeyeol-자연{ background:var(--gold-tint); color:var(--gold); }
+  .badge.gyeyeol-교육대{ background:var(--surface-2); color:var(--text-dim); }
+
+  /* 교과=노랑/종합=초록/논술=보라 — 신송고 원본 한글 문서의 지원 결과 색상 표시를 그대로 따름 */
+  .badge.jeon-gyogwa{ background:var(--gold-tint); color:var(--gold); }
+  .badge.jeon-jonghap{ background:var(--good-tint); color:var(--good); }
+  .badge.jeon-nonsul{ background:var(--purple-tint); color:var(--purple); }
+  .badge.jeon-silgi{ background:var(--navy-tint); color:var(--navy); }
+  .badge.jeon-myeonjeop{ background:var(--surface-2); color:var(--text-dim); }
+  .badge.jeon-jeongsi{ background:var(--bad-tint); color:var(--bad); }
+  .badge.jeon-gita{ background:var(--surface-2); color:var(--text-dim); }
+  .note-red{ color:var(--bad); font-weight:700; }
+
+  .detail-toggle{ cursor:pointer; color:var(--navy); font-size:.78rem; font-weight:600; background:none; border:none; font-family:inherit; padding:0; }
+  .detail-row td{ background:var(--surface-2); font-size:.82rem; color:var(--text-dim); white-space:pre-line; }
+  .detail-row .grid2{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  @media (max-width:640px){ .detail-row .grid2{ grid-template-columns:1fr; } }
+  .detail-row dt{ font-weight:700; color:var(--text); margin-top:8px; }
+  .detail-row dt:first-child{ margin-top:0; }
+  .detail-row dd{ margin:2px 0 0; }
+
+  .apps-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; }
+  .apps-list li{ font-size:.86rem; padding:8px 10px; background:var(--surface-2); border-radius:7px; display:flex; justify-content:space-between; gap:10px; }
+  .apps-list .grade{ font-weight:700; color:var(--navy); font-family:"Gowun Batang",serif; white-space:nowrap; }
+
+  .app-chip{ display:inline-flex; align-items:center; gap:4px; font-size:.8rem; padding:4px 9px; background:var(--surface-2); border-radius:7px; white-space:nowrap; }
+
+  /* 신송고 입결 정리: 원본 한글 문서와 동일하게 지원1~6을 한 줄(행)로, 합격한 칸만 전형별 배경색으로 표시 */
+  table.results-table{ font-size:.82rem; min-width:1040px; }
+  table.results-table th, table.results-table td{ padding:7px 8px; }
+  table.results-table td.resultcell{ vertical-align:middle; }
+  table.results-table td.resultcell.cell-gyogwa{ background:var(--gold-tint); }
+  table.results-table td.resultcell.cell-jonghap{ background:var(--good-tint); }
+  table.results-table td.resultcell.cell-nonsul{ background:var(--purple-tint); }
+  table.results-table td.resultcell.cell-silgi{ background:var(--navy-tint); }
+  table.results-table td.resultcell.empty{ color:var(--text-faint); text-align:center; }
+  .cellchip{ display:inline-block; padding:1px 8px; border-radius:5px; font-size:.76rem; font-weight:700; }
+  .cellchip.cell-gyogwa{ background:var(--gold-tint); color:var(--gold); }
+  .cellchip.cell-jonghap{ background:var(--good-tint); color:var(--good); }
+  .cellchip.cell-nonsul{ background:var(--purple-tint); color:var(--purple); }
+  .cellchip.cell-silgi{ background:var(--navy-tint); color:var(--navy); }
+
+  .empty{ color:var(--text-faint); font-size:.86rem; padding:14px 4px; }
+
+  .univ-card{ border:1px solid var(--border); border-radius:9px; padding:14px 16px; }
+  .univ-card + .univ-card{ margin-top:10px; }
+  .univ-card .headrow{ display:flex; flex-wrap:wrap; align-items:baseline; gap:8px; justify-content:space-between; }
+  .univ-card h3{ font-size:1rem; }
+  .univ-card .meta{ color:var(--text-dim); font-size:.82rem; margin-top:2px;}
+  .univ-card dl{ margin:10px 0 0; display:grid; grid-template-columns:100px 1fr; gap:4px 10px; font-size:.84rem; }
+  .univ-card dt{ color:var(--text-faint); font-weight:600; }
+  .univ-card dd{ margin:0; white-space:pre-line; }
+  .univ2028-pages{ display:flex; flex-direction:column; gap:10px; margin-top:12px; }
+  .univ2028-pages a{ display:block; line-height:0; }
+  .univ2028-img{ width:100%; max-width:760px; height:auto; display:block; border:1px solid var(--border); border-radius:6px; background:#fff; cursor:zoom-in; }
+
+  .conv-table-wrap{ max-height:360px; overflow-y:auto; }
+
+  footer.foot{ margin-top:36px; padding-top:18px; border-top:1px solid var(--border); color:var(--text-faint); font-size:.78rem; }
+  footer.foot p{ margin:4px 0; }
+
+  #loading{ padding:80px 0; text-align:center; color:var(--text-dim); }
+  [hidden]{ display:none !important; }
+
+  @media (max-width:600px){
+    header.top h1{ font-size:1.25rem; }
+    .panel{ padding:16px; }
+  }
+</style>
+
+<div class="page">
+  <header class="top">
+    <div class="titles">
+      <h1>대학 및 신송고 3개년(2026-2024) 입결 비교_2028전형요약</h1>
+      <div class="sub">5등급제 내신 → 9등급제 환산 · 2028대입 3개년 배치표 · 우리 학교 합격사례 조회</div>
+    </div>
+    <div class="school">신송고등학교 진로진학부</div>
+  </header>
+
+  <nav class="tabs">
+    <button data-tab="lookup" class="active">성적 조회</button>
+    <button data-tab="features">대학별 2028 전형특징</button>
+    <button data-tab="guide">환산방법 · 자료안내</button>
+    <button data-tab="results">신송고 입결 정리</button>
+  </nav>
+
+  <div id="loading">자료를 불러오는 중입니다…</div>
+
+  <main id="app" hidden>
+
+    <!-- ===================== TAB 1: 성적 조회 ===================== -->
+    <section class="view active" id="view-lookup">
+      <div class="panel">
+        <h2>학생 성적 입력</h2>
+        <div class="field-row">
+          <div class="field">
+            <label for="inGrade">5등급제 내신 평균 등급 (1.00~5.00)</label>
+            <input type="number" id="inGrade" min="1" max="5" step="0.01" value="2.00" inputmode="decimal">
+          </div>
+          <div class="field">
+            <label>계열</label>
+            <div class="radiogroup" id="gyeyeolGroup">
+              <label><input type="radio" name="gyeyeol" value="인문" checked> 인문</label>
+              <label><input type="radio" name="gyeyeol" value="자연"> 자연</label>
+            </div>
+          </div>
+          <div class="field" style="min-width:auto;">
+            <button class="primary" id="btnCalc">환산 및 조회</button>
+          </div>
+        </div>
+        <div class="hint">부산광역시교육청 학력개발원 진로진학지원센터의 5등급제·9등급제 누적 등급평균 비교 자료(2026년 6월, 고1~고2-1학기 기준)를 바탕으로 환산합니다. 자세한 방법은 [환산방법·자료안내] 탭을 참고하세요.</div>
+
+        <div class="result-tiles" id="resultTiles" hidden>
+          <div class="tile">
+            <div class="label">입력한 5등급제 평균</div>
+            <div class="value num" id="tileG5">-</div>
+          </div>
+          <div class="tile">
+            <div class="label">전교생 중 상위 (5등급제 기준)</div>
+            <div class="value num" id="tilePct">-</div>
+          </div>
+          <div class="tile accent">
+            <div class="label">9등급제 환산 등급</div>
+            <div class="value num" id="tileG9">-</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" id="placementPanel" hidden>
+        <h2>2028대입 3개년 배치표 비교 <span class="count" id="placementCount"></span></h2>
+        <div class="field-row">
+          <div class="field">
+            <label>전형</label>
+            <select id="filterJeon">
+              <option value="">전체</option>
+              <option value="교과">교과</option>
+              <option value="종합">종합</option>
+              <option value="기타">교대·기타</option>
+              <option value="특별전형">과기원(특별전형)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>구분</label>
+            <select id="filterGubun">
+              <option value="">전체</option>
+              <option value="사립/일반">사립·일반</option>
+              <option value="국립대">국립대</option>
+              <option value="수도권">교대(수도권)</option>
+              <option value="지방">교대(지방)</option>
+              <option value="과학기술원">과학기술원</option>
+            </select>
+          </div>
+          <div class="field" style="min-width:200px;">
+            <label for="filterUniv">대학명 / 학과명 검색</label>
+            <input type="text" id="filterUniv" placeholder="예: 인하대, 컴퓨터공학">
+          </div>
+          <div class="field">
+            <label>&nbsp;</label>
+            <label style="display:flex;align-items:center;gap:6px;font-size:.82rem;font-weight:500;">
+              <input type="checkbox" id="filterHasData" checked> 3개년 등급 공개된 학과만
+            </label>
+          </div>
+        </div>
+        <div class="hint">환산 등급과의 근접도(최근 연도에 가중치)순으로 정렬됩니다. 2026·2025·2024학년도 수시 결과(9등급제 환산) 기준이며, 2028학년도 전형 방법·모집단위와 정확히 일치하지 않을 수 있습니다.</div>
+        <div class="tablewrap">
+          <table>
+            <thead>
+              <tr>
+                <th>대학</th><th>전형</th><th>학과</th>
+                <th>'26등급</th><th>'25등급</th><th>'24등급</th><th>경쟁률('26)</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="placementBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="panel" id="school2026Panel" hidden>
+        <h2>우리 학교 선배 합격사례 — 등급 인접 (2024~2026학년도) <span class="count" id="school2026Count"></span></h2>
+        <div class="hint">2024~2026학년도 신송고 대입 결과 중 환산 등급과 가까운 순으로 표시합니다. 항목은 실제 합격·충원합격 사례입니다.</div>
+        <ul class="apps-list" id="school2026List" style="margin-top:12px;"></ul>
+      </div>
+
+      <div class="panel">
+        <h2>우리 학교 지원결과 검색 — 2024~2026학년도</h2>
+        <div class="hint">2024~2026학년도 지원 당시 내신 등급(9등급제)과 대학·학과 지원 결과(합격/충원합격/불합격)를 함께 검색할 수 있습니다. 위 배치표에서 관심있는 대학명을 눌러 자동 검색할 수도 있습니다.</div>
+        <div class="field-row" style="margin-top:10px;">
+          <div class="field" style="min-width:240px;">
+            <label for="appsSearch">대학명 또는 학과명</label>
+            <input type="text" id="appsSearch" placeholder="예: 인하대, 컴퓨터공학">
+          </div>
+        </div>
+        <div class="tablewrap" id="appsResultWrap" hidden>
+          <table>
+            <thead><tr><th>연도</th><th>대학</th><th>모집단위</th><th>전형</th><th>등급</th><th>결과</th></tr></thead>
+            <tbody id="appsBody"></tbody>
+          </table>
+        </div>
+        <div class="empty" id="appsEmpty">대학명 또는 학과명을 입력하면 2024~2026학년도 지원 기록을 보여드립니다.</div>
+      </div>
+    </section>
+
+    <!-- ===================== TAB 2: 대학별 2028 전형특징 ===================== -->
+    <section class="view" id="view-features">
+      <div class="panel">
+        <h2>대학별 2028학년도 전형 특징 및 변경사항</h2>
+        <div class="hint">대학명을 검색하면 「2028 대입전형시행계획」 원문 자료(서울특별시교육청교육연구정보원, 2026.5.26)에서 해당 대학의 ① 전년도와 차이점 ② 전형방법 ③ 수시모집 최저학력기준 ④ 수시모집 학생부반영방법 페이지를 편집 없이 원문 그대로 보여드립니다 (수록 대학 82개교). 목록에 없는 대학은 아래 ‘2028대입 주요대학 3개년 수시커트라인’ 요약 카드로 표시됩니다.</div>
+        <div class="field-row" style="margin-top:12px;">
+          <div class="field">
+            <label>계열</label>
+            <select id="featGyeyeol">
+              <option value="">전체</option>
+              <option value="인문">인문</option>
+              <option value="자연">자연</option>
+              <option value="교육대">교육대</option>
+            </select>
+          </div>
+          <div class="field" style="min-width:220px;">
+            <label for="featSearch">대학명 검색</label>
+            <input type="text" id="featSearch" placeholder="예: 고려대">
+          </div>
+        </div>
+      </div>
+      <div class="panel">
+        <div id="featureList"></div>
+      </div>
+    </section>
+
+    <!-- ===================== TAB 3: 환산방법 / 자료안내 ===================== -->
+    <section class="view" id="view-guide">
+      <div class="panel">
+        <h2>5등급제 → 9등급제 환산 방법</h2>
+        <p style="color:var(--text-dim);font-size:.9rem;">2025학년도 입학생(2028대입)부터 고교 내신이 기존 9등급 상대평가에서 5등급 상대평가로 바뀌면서, 재학생의 현재 내신과 선배들의 9등급제 시절 입시결과를 그대로 비교할 수 없게 되었습니다. 이 도구는 부산광역시교육청 학력개발원 진로진학지원센터가 부산 지역 98개 고교, 15,978명의 5등급제 누적 내신 자료를 9등급제(2024학년도 고3, 94개교, 15,670명) 자료와 백분위로 대응시킨 환산표를 사용합니다.</p>
+        <p style="color:var(--text-dim);font-size:.9rem;">예를 들어 5등급제 등급평균 1.00(전교생 상위 0.68%)은 9등급제 기준 1.28 수준에 해당합니다. 환산은 표에 없는 값에 대해 인접한 두 구간을 선형보간하여 계산합니다.</p>
+        <div class="tablewrap conv-table-wrap">
+          <table>
+            <thead><tr><th>5등급제 등급평균</th><th>누적 상위 비율</th><th>9등급제 환산 등급평균</th></tr></thead>
+            <tbody id="convTableBody"></tbody>
+          </table>
+        </div>
+        <p class="hint">출처: 부산광역시교육청 학력개발원 진로진학지원센터, 「관내 5등급제 고1~고2-1(총 3개 학기) 누적 등급평균 분석 자료」(2026.6)</p>
+      </div>
+
+      <div class="panel">
+        <h2>사용한 자료</h2>
+        <dl style="font-size:.88rem;color:var(--text-dim);display:flex;flex-direction:column;gap:10px;">
+          <div><dt style="font-weight:700;color:var(--text);">5→9등급 환산표</dt><dd style="margin:2px 0 0;">부산광역시교육청 학력개발원 진로진학지원센터, 「5등급제 등급평균 누적 분석 자료」(2026.6)</dd></div>
+          <div><dt style="font-weight:700;color:var(--text);">2028대입 3개년 수시 커트라인(배치표)</dt><dd style="margin:2px 0 0;">「2028대입 주요대학 3개년 수시커트라인」(2026.6.22, 고1·2용) — 인문/자연, 교과/종합, 국립대, 교대, 과학기술원 75개 구분, 6,900여 개 학과 데이터. 2024~2026학년도 입결(9등급제)은 단순 참고용이며, 2026학년도 모집단위 기준이므로 2028학년도 전형별 모집단위와 정확히 일치하지 않을 수 있습니다.</dd></div>
+          <div><dt style="font-weight:700;color:var(--text);">우리 학교 자체 입결</dt><dd style="margin:2px 0 0;">신송고등학교 2024·2025·2026학년도 대입 진학결과(실명 제거). 2026학년도는 내신 등급별 합격 사례, 2024·2025학년도는 지원건별 합격/불합격 결과입니다.</dd></div>
+          <div><dt style="font-weight:700;color:var(--text);">신송고 입결 정리(2024~2026학년도)</dt><dd style="margin:2px 0 0;">신송고등학교 2024·2025·2026학년도 입시결과 정리 자료(실명 제거). 내신 전과목 등급이 좋은 순으로 정렬된 합격 사례이며, 학생 1명당 최대 6건의 지원·합격 내역과 전형유형을 함께 보여줍니다. [신송고 입결 정리] 탭에서 학년도별로 확인할 수 있습니다.</dd></div>
+          <div><dt style="font-weight:700;color:var(--text);">대학별 2028 전형특징(원문)</dt><dd style="margin:2px 0 0;">「2028 대입전형시행계획 요약 자료 『쎈(SEN)진학 프리뷰』」(서울특별시교육청교육연구정보원, 2026.5.26 발표). 수록된 82개 대학에 한해 대학별 ① 전년도와 차이점 ② 전형방법 ③ 수시모집 최저학력기준 ④ 수시모집 학생부반영방법 페이지를 원문 그대로(편집 없이) 보여드립니다. [대학별 2028 전형특징] 탭에서 대학명을 검색하면 확인할 수 있습니다.</dd></div>
+        </dl>
+        <p class="hint" style="margin-top:14px;">이 도구가 보여주는 수치는 모두 참고용이며, 실제 합격선은 해당 연도 지원자 구성과 수능 난이도 등에 따라 달라질 수 있습니다. 학생부종합전형 등급은 정성평가 결과가 반영된 값으로 정량 비교에 한계가 있습니다.</p>
+      </div>
+    </section>
+
+    <!-- ===================== TAB 4: 신송고 입결 정리 ===================== -->
+    <section class="view" id="view-results">
+      <div class="panel" id="resultsGate">
+        <h2>신송고 입결 정리</h2>
+        <div class="hint">학생 개인 입시결과가 포함된 자료입니다. 비밀번호를 입력해야 열람할 수 있습니다.</div>
+        <div class="field-row" style="margin-top:12px;">
+          <div class="field">
+            <label for="resultsPwInput">비밀번호</label>
+            <input type="password" id="resultsPwInput" placeholder="비밀번호 입력" inputmode="numeric" autocomplete="off">
+          </div>
+          <div class="field" style="min-width:auto;">
+            <button class="primary" id="resultsPwBtn">확인</button>
+          </div>
+        </div>
+        <div class="hint" id="resultsPwError" style="color:var(--bad);" hidden>비밀번호가 올바르지 않습니다.</div>
+      </div>
+
+      <div class="panel" id="resultsContent" hidden>
+        <h2>신송고 입결 정리 <span class="count" id="resultsCount"></span></h2>
+        <div class="field-row">
+          <div class="field">
+            <label>학년도 선택</label>
+            <div class="radiogroup" id="resultsYearGroup">
+              <label><input type="radio" name="resultsYear" value="2026" checked> 2026학년도</label>
+              <label><input type="radio" name="resultsYear" value="2025"> 2025학년도</label>
+              <label><input type="radio" name="resultsYear" value="2024"> 2024학년도</label>
+            </div>
+          </div>
+        </div>
+        <div class="hint">원본 자료와 같은 형식으로, 내신 전과목 평균 등급이 좋은(숫자가 낮은) 학생 순으로 한 줄씩 정렬했습니다. 지원1~6 중 실제로 <strong>합격한 칸만</strong> 전형에 따라 색이 칠해집니다 —
+          <span class="cellchip cell-jonghap">종합</span> <span class="cellchip cell-gyogwa">교과</span> <span class="cellchip cell-nonsul">논술</span> <span class="cellchip cell-silgi">실기·실적</span>. 불합격한 칸은 색 없이 그대로 표시됩니다. 비고란은 정시 지원 현황이며, <span class="note-red">빨간 글씨</span>는 정시 합격을 뜻합니다.</div>
+        <div class="tablewrap">
+          <table class="results-table">
+            <thead>
+              <tr>
+                <th style="width:70px;">내신등급</th>
+                <th>지원1</th><th>지원2</th><th>지원3</th><th>지원4</th><th>지원5</th><th>지원6</th>
+                <th>비고(정시)</th>
+              </tr>
+            </thead>
+            <tbody id="resultsBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <p>신송고등학교 진로진학부 · 교사 상담용 참고자료 · 실제 합격 여부를 보장하지 않습니다.</p>
+  </footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var DATA = { conv:null, placement:null, success:null, schoolApps:null, flat:null, resultsByYear:null, univ2028:null };
+
+  function fetchJSON(url){
+    return fetch(url).then(function(r){
+      if(!r.ok) throw new Error("load fail: "+url);
+      return r.json();
+    });
+  }
+
+  Promise.all([
+    fetchJSON('data/conversion.json'),
+    fetchJSON('data/placement.json'),
+    fetchJSON('data/success.json'),
+    fetchJSON('data/schoolApps.json'),
+    fetchJSON('data/univ2028.json')
+  ]).then(function(res){
+    DATA.conv = res[0];
+    DATA.placement = res[1];
+    DATA.success = res[2];
+    DATA.schoolApps = res[3];
+    DATA.univ2028 = res[4];
+    DATA.flat = flattenPlacement(DATA.placement);
+    document.getElementById('loading').hidden = true;
+    document.getElementById('app').hidden = false;
+    init();
+  }).catch(function(err){
+    document.getElementById('loading').textContent = '자료를 불러오지 못했습니다: ' + err.message;
+    console.error(err);
+  });
+
+  /* ---------------- data prep ---------------- */
+
+  function normUniv(s){
+    if(!s) return '';
+    var t = String(s);
+    t = t.replace(/\([^)]*\)/g,'');
+    t = t.replace(/학교$/,'');
+    var ALIAS = {
+      '한국외':'한국외국어','서울과기':'서울과학기술','항공':'한국항공',
+      '교원':'한국교원','산업기술':'한국산업기술','기술교육':'한국기술교육',
+      '방송통신':'한국방송통신'
+    };
+    t = t.replace(/\s+/g,'');
+    return t.trim();
+  }
+
+  function flattenPlacement(blocks){
+    var out = [];
+    blocks.forEach(function(b){
+      var uNorm = normUniv(b.univ);
+      (b.depts||[]).forEach(function(d){
+        var nums = [d.g26, d.g25, d.g24].filter(function(v){ return typeof v === 'number'; });
+        var weighted = null;
+        var weights = [ [d.g26,0.5], [d.g25,0.3], [d.g24,0.2] ].filter(function(p){ return typeof p[0]==='number'; });
+        if(weights.length){
+          var wsum = weights.reduce(function(a,p){return a+p[1];},0);
+          weighted = weights.reduce(function(a,p){return a+p[0]*p[1];},0) / wsum;
+        }
+        out.push({
+          sheet:b.sheet, gyeyeol:b.gyeyeol, jeonhyeong:b.jeonhyeong, gubun:b.gubun,
+          univ:b.univ, univNorm:uNorm, admission_name:b.admission_name,
+          admission_method:b.admission_method, csat_min:b.csat_min, features_2028:b.features_2028,
+          dept:d.dept, g26:d.g26, g25:d.g25, g24:d.g24,
+          rate26:d.rate26, rate25:d.rate25, rate24:d.rate24,
+          avg: weighted, hasData: weights.length>0
+        });
+      });
+    });
+    return out;
+  }
+
+  function interp(x, pts, xk, yk){
+    if(x<=pts[0][xk]) return pts[0][yk];
+    var last = pts[pts.length-1];
+    if(x>=last[xk]) return last[yk];
+    for(var i=0;i<pts.length-1;i++){
+      var a=pts[i], b=pts[i+1];
+      if(x>=a[xk] && x<=b[xk]){
+        var t=(x-a[xk])/(b[xk]-a[xk]);
+        return a[yk] + t*(b[yk]-a[yk]);
+      }
+    }
+    return last[yk];
+  }
+
+  function convert(g5){
+    g5 = Math.max(1, Math.min(5, g5));
+    var g9 = interp(g5, DATA.conv, 'g5', 'g9');
+    var pct = interp(g5, DATA.conv, 'g5', 'pct');
+    return { g5:g5, g9:g9, pct:pct };
+  }
+
+  /* ---------------- tabs ---------------- */
+
+  function init(){
+    document.querySelectorAll('nav.tabs button').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        document.querySelectorAll('nav.tabs button').forEach(function(b){ b.classList.remove('active'); });
+        btn.classList.add('active');
+        document.querySelectorAll('section.view').forEach(function(v){ v.classList.remove('active'); });
+        document.getElementById('view-'+btn.dataset.tab).classList.add('active');
+      });
+    });
+
+    document.getElementById('btnCalc').addEventListener('click', runLookup);
+    document.getElementById('inGrade').addEventListener('keydown', function(e){ if(e.key==='Enter') runLookup(); });
+    document.getElementById('filterJeon').addEventListener('change', renderPlacement);
+    document.getElementById('filterGubun').addEventListener('change', renderPlacement);
+    document.getElementById('filterUniv').addEventListener('input', debounce(renderPlacement,150));
+    document.getElementById('filterHasData').addEventListener('change', renderPlacement);
+    document.getElementById('appsSearch').addEventListener('input', debounce(renderApps,150));
+
+    document.getElementById('featGyeyeol').addEventListener('change', renderFeatures);
+    document.getElementById('featSearch').addEventListener('input', debounce(renderFeatures,150));
+
+    document.querySelectorAll('input[name=resultsYear]').forEach(function(r){
+      r.addEventListener('change', renderResults);
+    });
+    document.getElementById('resultsPwBtn').addEventListener('click', tryUnlockResults);
+    document.getElementById('resultsPwInput').addEventListener('keydown', function(e){ if(e.key==='Enter') tryUnlockResults(); });
+
+    buildConvTable();
+    renderFeatures();
+  }
+
+  /* ---------------- 신송고 입결 정리: 비밀번호 보호 ---------------- */
+
+  var RESULTS_PASSWORD = '20050303';
+  var resultsUnlocked = false;
+
+  function tryUnlockResults(){
+    var input = document.getElementById('resultsPwInput');
+    var err = document.getElementById('resultsPwError');
+    if(input.value !== RESULTS_PASSWORD){
+      err.hidden = false;
+      input.select();
+      return;
+    }
+    err.hidden = true;
+    resultsUnlocked = true;
+    document.getElementById('resultsGate').hidden = true;
+    document.getElementById('resultsContent').hidden = false;
+    if(DATA.resultsByYear){
+      renderResults();
+    } else {
+      fetchJSON('data/resultsByYear.json').then(function(json){
+        DATA.resultsByYear = json;
+        renderResults();
+      }).catch(function(e){
+        document.getElementById('resultsBody').innerHTML = '<tr><td colspan="8" class="empty">자료를 불러오지 못했습니다: '+esc(e.message)+'</td></tr>';
+      });
+    }
+  }
+
+  function debounce(fn,ms){ var t; return function(){ var a=arguments; clearTimeout(t); t=setTimeout(function(){fn.apply(null,a);},ms); }; }
+
+  var current = null; // {g9, gyeyeol}
+
+  function runLookup(){
+    var g5 = parseFloat(document.getElementById('inGrade').value);
+    if(isNaN(g5) || g5<1 || g5>5){ alert('1.00 ~ 5.00 사이의 값을 입력해주세요.'); return; }
+    var gyeyeol = document.querySelector('input[name=gyeyeol]:checked').value;
+    var conv = convert(g5);
+    current = { g9: conv.g9, gyeyeol: gyeyeol };
+
+    document.getElementById('resultTiles').hidden = false;
+    document.getElementById('tileG5').textContent = g5.toFixed(2);
+    document.getElementById('tilePct').textContent = conv.pct.toFixed(2) + '%';
+    document.getElementById('tileG9').textContent = conv.g9.toFixed(2);
+
+    document.getElementById('placementPanel').hidden = false;
+    document.getElementById('school2026Panel').hidden = false;
+
+    renderPlacement();
+    renderSchool2026();
+  }
+
+  /* ---------------- placement table ---------------- */
+
+  function renderPlacement(){
+    if(!current) return;
+    var jeon = document.getElementById('filterJeon').value;
+    var gubun = document.getElementById('filterGubun').value;
+    var q = document.getElementById('filterUniv').value.trim();
+    var hasDataOnly = document.getElementById('filterHasData').checked;
+
+    var rows = DATA.flat.filter(function(r){
+      if(r.gyeyeol !== current.gyeyeol && r.gyeyeol !== '교육대') return false;
+      if(jeon && r.jeonhyeong !== jeon) return false;
+      if(gubun && r.gubun !== gubun) return false;
+      if(hasDataOnly && !r.hasData) return false;
+      if(q && !(r.univ.indexOf(q)>=0 || r.dept.indexOf(q)>=0)) return false;
+      return true;
+    });
+
+    rows.forEach(function(r){ r._diff = r.hasData ? Math.abs(r.avg - current.g9) : 999; });
+    rows.sort(function(a,b){ return a._diff - b._diff; });
+    var shown = rows.slice(0, 60);
+
+    document.getElementById('placementCount').textContent = '(' + rows.length + '건 중 ' + shown.length + '건 표시)';
+    var tbody = document.getElementById('placementBody');
+    tbody.innerHTML = '';
+    if(!shown.length){
+      tbody.innerHTML = '<tr><td colspan="8" class="empty">조건에 맞는 학과가 없습니다.</td></tr>';
+      return;
+    }
+    shown.forEach(function(r, idx){
+      var tr = document.createElement('tr');
+      var gyBadge = '<span class="badge gyeyeol-'+r.gyeyeol+'">'+r.gyeyeol+'</span>';
+      tr.innerHTML =
+        '<td><strong>'+esc(r.univ)+'</strong><div class="hint" style="margin-top:2px;">'+gyBadge+'</div></td>'+
+        '<td>'+esc(r.admission_name||r.jeonhyeong||'')+'</td>'+
+        '<td>'+esc(r.dept)+'</td>'+
+        '<td class="num">'+fmtG(r.g26)+'</td>'+
+        '<td class="num">'+fmtG(r.g25)+'</td>'+
+        '<td class="num">'+fmtG(r.g24)+'</td>'+
+        '<td class="num">'+fmtRate(r.rate26)+'</td>'+
+        '<td><button class="detail-toggle" data-idx="'+idx+'">상세 ▾</button></td>';
+      tbody.appendChild(tr);
+
+      var detailTr = document.createElement('tr');
+      detailTr.className = 'detail-row';
+      detailTr.hidden = true;
+      var td = document.createElement('td');
+      td.colSpan = 8;
+      td.innerHTML =
+        '<div class="grid2">'+
+          '<dl style="margin:0;">'+
+            '<dt>전형방법</dt><dd>'+esc(r.admission_method||'정보 없음')+'</dd>'+
+            '<dt>수능최저</dt><dd>'+esc(r.csat_min||'없음')+'</dd>'+
+            '<dt>2028 전형특징·변경사항</dt><dd>'+esc(r.features_2028||'특이사항 없음')+'</dd>'+
+          '</dl>'+
+          '<div><dt style="font-weight:700;color:var(--text);margin-bottom:4px;">우리 학교 선배 기록</dt><div class="ourrecord"></div></div>'+
+        '</div>';
+      detailTr.appendChild(td);
+      tbody.appendChild(detailTr);
+
+      tr.querySelector('.detail-toggle').addEventListener('click', function(){
+        var willShow = detailTr.hidden;
+        detailTr.hidden = !willShow;
+        this.textContent = willShow ? '상세 ▴' : '상세 ▾';
+        if(willShow && !detailTr.dataset.loaded){
+          detailTr.dataset.loaded = '1';
+          td.querySelector('.ourrecord').innerHTML = renderOurRecordFor(r);
+        }
+      });
+    });
+  }
+
+  function renderOurRecordFor(r){
+    var uNorm = r.univNorm;
+    var hitsApps = DATA.schoolApps.filter(function(a){ return normUniv(a.univ)===uNorm; });
+    hitsApps.sort(function(a,b){ return b.year-a.year; });
+
+    var html = '';
+    if(hitsApps.length){
+      html += '<ul class="apps-list">';
+      hitsApps.slice(0,10).forEach(function(a){
+        var gradeTxt = (typeof a.grade === 'number') ? a.grade.toFixed(2) : '';
+        html += '<li><span>'+a.year+' '+esc(a.dept||'')+' <span class="hint">'+esc(a.type2||'')+'</span></span>'+
+          '<span style="display:flex;gap:6px;align-items:center;">'+(gradeTxt?'<span class="grade num">'+gradeTxt+'</span>':'')+jeonBadge(a)+resultBadge(a.result)+'</span></li>';
+      });
+      html += '</ul>';
+      if(hitsApps.length>10) html += '<div class="hint" style="margin-top:6px;">그 외 '+(hitsApps.length-10)+'건 더 있음 — 아래 지원결과 검색에서 확인하세요.</div>';
+    } else {
+      html = '<div class="empty" style="padding:6px 0;">우리 학교 기록에서 일치하는 대학을 찾지 못했습니다.</div>';
+    }
+    return html;
+  }
+
+  function resultBadge(res){
+    if(res==='합격') return '<span class="badge pass">합격</span>';
+    if(res==='충원합격') return '<span class="badge wait">충원합격</span>';
+    if(res==='불합격') return '<span class="badge fail">불합격</span>';
+    return '<span class="badge">'+esc(res)+'</span>';
+  }
+
+  /* categorize 신송고 자체 지원결과의 전형유형(type1)/세부유형(type3)을
+     교과·종합·논술·실기 등으로 단순화 — 원자료의 세부 전형명(type2)이 아니라
+     상위 카테고리를 한눈에 보여주기 위함 */
+  function categorizeAdmission(a){
+    var t1 = a.type1 || '';
+    var t3 = a.type3 || '';
+    if(t1.indexOf('교과')>=0 || t3.indexOf('교과')>=0) return '교과';
+    if(t1.indexOf('종합')>=0 || t3.indexOf('종합')>=0) return '종합';
+    if(t1.indexOf('논술')>=0 || t3.indexOf('논술')>=0) return '논술';
+    if(t1.indexOf('실기')>=0 || t1.indexOf('실적')>=0 || t3.indexOf('실기')>=0 || t3.indexOf('실적')>=0) return '실기/실적';
+    if(t1.indexOf('면접')>=0) return '면접';
+    if(t1.indexOf('수능')>=0) return '정시(수능)';
+    if(t1.indexOf('학생부')>=0) return '학생부(기타)';
+    return '';
+  }
+  function jeonKey(cat){
+    return { '교과':'gyogwa', '종합':'jonghap', '논술':'nonsul', '실기/실적':'silgi',
+      '면접':'myeonjeop', '정시(수능)':'jeongsi', '학생부(기타)':'gita' }[cat] || 'gita';
+  }
+  function jeonBadge(a){
+    var cat = categorizeAdmission(a);
+    if(!cat) return '';
+    return '<span class="badge jeon-'+jeonKey(cat)+'">'+esc(cat)+'</span>';
+  }
+
+  function fmtG(v){ return (typeof v==='number') ? v.toFixed(2) : (v || '-'); }
+  function fmtRate(v){ return (typeof v==='number') ? v.toFixed(1) : (v || '-'); }
+
+  /* ---------------- school 2026 nearest ---------------- */
+
+  function renderSchool2026(){
+    // 정시(수능) 합격사례는 내신 등급이 아닌 수능 성적 기반 선발이라 등급 인접 비교에서 제외
+    var pool = DATA.success.filter(function(r){ return categorizeAdmission(r) !== '정시(수능)'; });
+    var rows = pool.map(function(r){ return { r:r, diff: Math.abs(r.grade - current.g9) }; });
+    rows.sort(function(a,b){ return a.diff-b.diff; });
+    var shown = rows.slice(0, 12);
+    document.getElementById('school2026Count').textContent = '(9등급제 환산 '+current.g9.toFixed(2)+'과 가까운 순 12건)';
+    var ul = document.getElementById('school2026List');
+    ul.innerHTML = '';
+    shown.forEach(function(x){
+      var li = document.createElement('li');
+      var text = '<span class="hint">'+x.r.year+'</span> ' + esc(x.r.univ) + ' ' + esc(x.r.dept||'') + ' <span class="hint">('+esc(x.r.type2||'')+')</span>';
+      li.innerHTML = '<span>'+text+' '+jeonBadge(x.r)+' '+resultBadge(x.r.result)+'</span><span class="grade num">'+x.r.grade.toFixed(2)+'</span>';
+      ul.appendChild(li);
+    });
+  }
+
+  /* ---------------- apps search (2024/2025) ---------------- */
+
+  function renderApps(){
+    var q = document.getElementById('appsSearch').value.trim();
+    var wrap = document.getElementById('appsResultWrap');
+    var empty = document.getElementById('appsEmpty');
+    if(!q){ wrap.hidden = true; empty.hidden = false; empty.textContent = '대학명 또는 학과명을 입력하면 2024~2026학년도 지원 기록을 보여드립니다.'; return; }
+    var rows = DATA.schoolApps.filter(function(a){
+      if(categorizeAdmission(a) === '정시(수능)') return false; // 정시는 검색 결과에서 제외
+      return (a.univ && a.univ.indexOf(q)>=0) || (a.dept && a.dept.indexOf(q)>=0);
+    });
+    if(!rows.length){ wrap.hidden = true; empty.hidden = false; empty.textContent = '‘'+q+'’ 검색 결과가 없습니다.'; return; }
+    empty.hidden = true; wrap.hidden = false;
+
+    var passRows = rows.filter(function(a){ return a.result==='합격' || a.result==='충원합격'; });
+    var failRows = rows.filter(function(a){ return !(a.result==='합격' || a.result==='충원합격'); });
+    // best grade (lowest number = higher rank) first within each group; entries without a grade sink to the bottom
+    var byGrade = function(a,b){
+      var ga = (typeof a.grade==='number') ? a.grade : Infinity;
+      var gb = (typeof b.grade==='number') ? b.grade : Infinity;
+      if(ga !== gb) return ga - gb;
+      return b.year - a.year;
+    };
+    passRows.sort(byGrade);
+    failRows.sort(byGrade);
+
+    var tbody = document.getElementById('appsBody');
+    tbody.innerHTML = '';
+
+    function addGroupHeader(label, count){
+      var tr = document.createElement('tr');
+      tr.innerHTML = '<td colspan="6" style="background:var(--surface-2);font-weight:700;font-size:.78rem;color:var(--text-dim);">'+esc(label)+' ('+count+'건)</td>';
+      tbody.appendChild(tr);
+    }
+    function addRows(list){
+      list.slice(0,150).forEach(function(a){
+        var tr = document.createElement('tr');
+        var gradeTxt = (typeof a.grade === 'number') ? a.grade.toFixed(2) : '-';
+        tr.innerHTML = '<td>'+a.year+'</td><td>'+esc(a.univ)+'</td><td>'+esc(a.dept||'')+'</td>'+
+          '<td>'+jeonBadge(a)+' <span class="hint">'+esc(a.type2||a.type1||'')+'</span></td>'+
+          '<td class="num">'+gradeTxt+'</td><td>'+resultBadge(a.result)+'</td>';
+        tbody.appendChild(tr);
+      });
+    }
+
+    if(passRows.length){ addGroupHeader('합격·충원합격', passRows.length); addRows(passRows); }
+    if(failRows.length){ addGroupHeader('불합격', failRows.length); addRows(failRows); }
+  }
+
+  /* ---------------- 신송고 입결 정리 (2024~2026, 등급순) ---------------- */
+
+  // 지원 항목에 달린 전형유형 표기("종합_탐구형","지균","학종","공합" 등 표기 편차를 포함)를
+  // 교과/종합/논술/실기·실적 핵심 카테고리로 단순화 (셀 배경색 클래스 키)
+  function cellTypeKey(t){
+    if(!t) return null;
+    if(t.indexOf('교과')>=0) return 'gyogwa';
+    if(t.indexOf('종합')>=0 || t.indexOf('학종')>=0 || t==='일반' || t==='지균' || t.indexOf('과학인재')>=0 || t==='공합') return 'jonghap';
+    if(t.indexOf('논술')>=0) return 'nonsul';
+    if(t.indexOf('실기')>=0 || t.indexOf('실적')>=0) return 'silgi';
+    return null;
+  }
+
+  // 지원1~6 중 한 칸(원본 문서의 셀 하나)을 그대로 렌더링 — 실제 합격(highlight)한 칸만
+  // 전형별 배경색을 칠하고, 불합격한 칸은 색 없이 원문 그대로 보여준다.
+  function renderAppCell(a){
+    if(!a) return '<td class="resultcell empty">-</td>';
+    var cls = 'resultcell';
+    if(a.pass){
+      var key = cellTypeKey(a.type);
+      if(key) cls += ' cell-' + key;
+    }
+    return '<td class="'+cls+'">'+esc(a.raw || a.text)+'</td>';
+  }
+
+  function renderResults(){
+    if(!DATA.resultsByYear) return;
+    var yearInput = document.querySelector('input[name=resultsYear]:checked');
+    if(!yearInput) return;
+    var year = yearInput.value;
+    var students = DATA.resultsByYear[year] || [];
+    document.getElementById('resultsCount').textContent = '(' + year + '학년도 · ' + students.length + '건, 등급 좋은 순)';
+    var tbody = document.getElementById('resultsBody');
+    if(!students.length){
+      tbody.innerHTML = '<tr><td colspan="8" class="empty">해당 학년도 자료가 없습니다.</td></tr>';
+      return;
+    }
+    tbody.innerHTML = students.map(function(s){
+      var apps = s.apps || [];
+      var cells = '';
+      for(var i=0;i<6;i++){ cells += renderAppCell(apps[i]); }
+      var noteHtml = renderNote(s.note);
+      return '<tr>'+
+        '<td class="num" style="font-weight:700;color:var(--navy);font-family:\'Gowun Batang\',serif;">'+s.grade.toFixed(2)+'</td>'+
+        cells+
+        '<td class="hint">'+noteHtml+'</td>'+
+      '</tr>';
+    }).join('');
+  }
+
+  // 비고(지원6 옆) 칸은 원본 문서에서 정시 지원 현황을 적어둔 자리이며, 그중 빨간 글씨는
+  // 실제 정시 합격을 뜻한다고 알려주신 표시 규칙을 그대로 재현
+  function renderNote(note){
+    if(!note || !note.length) return '';
+    return note.map(function(frag){
+      var t = esc(frag.text);
+      return frag.red ? '<span class="note-red">'+t+'</span>' : '<span>'+t+'</span>';
+    }).join(' ');
+  }
+
+  /* ---------------- features tab ---------------- */
+
+  var featShowCount = 24;
+
+  /* ---------------- 대학별 2028 전형특징: 원문(SEN) 이미지 검색 ---------------- */
+
+  var UNIV2028_ALIAS = {
+    '숙대':'숙명여대','외대':'한국외국어대','한국외대':'한국외국어대','항공대':'한국항공대',
+    '교원대':'한국교원대','교통대':'한국교통대','서울과기대':'서울과학기술대','서울과기':'서울과학기술대',
+    '시립대':'서울시립대','성대':'성균관대','이대':'이화여대','건대':'건국대','경대':'경희대',
+    '단대':'단국대','성신대':'성신여대','숭실':'숭실대'
+  };
+
+  function univ2028Base(name){ return name.replace(/\([^)]*\)/g,'').trim(); }
+
+  function findUniv2028Matches(q){
+    var list = (DATA.univ2028 && DATA.univ2028.universities) || [];
+    if(!q) return [];
+    var alias = UNIV2028_ALIAS[q];
+    return list.filter(function(u){
+      var base = univ2028Base(u.name);
+      if(u.name.indexOf(q)>=0 || base.indexOf(q)>=0) return true;
+      if(alias && (u.name===alias || base===alias)) return true;
+      return false;
+    });
+  }
+
+  function renderUniv2028Gallery(matches){
+    var box = document.getElementById('featureList');
+    var html = '<div class="hint" style="margin-bottom:10px;">원문 자료에서 '+matches.length+'개 대학을 찾았습니다. 전년도 대비 변경사항·전형방법·수시 수능최저학력기준·학생부반영방법이 담긴 원문 페이지입니다 (클릭하면 원본 크기로 열립니다).</div>';
+    html += matches.map(function(u){
+      var pageLabel = (u.start===u.end) ? ('원문 p.'+u.start) : ('원문 p.'+u.start+'~'+u.end);
+      return '<div class="univ-card">'+
+        '<div class="headrow"><h3>'+esc(u.name)+'</h3><span class="badge" style="background:var(--surface-2);color:var(--text-dim);">'+pageLabel+'</span></div>'+
+        '<div class="univ2028-pages">'+
+          u.images.map(function(src,i){
+            return '<a href="'+src+'" target="_blank" rel="noopener"><img src="'+src+'" loading="lazy" alt="'+esc(u.name)+' 2028 전형 원문 '+(u.start+i)+'페이지" class="univ2028-img"></a>';
+          }).join('')+
+        '</div>'+
+      '</div>';
+    }).join('');
+    box.innerHTML = html;
+  }
+
+  function renderFeatures(reset){
+    if(reset !== false) featShowCount = 24;
+    var gy = document.getElementById('featGyeyeol').value;
+    var q = document.getElementById('featSearch').value.trim();
+
+    if(!q){
+      document.getElementById('featureList').innerHTML =
+        '<div class="empty">위 검색창에 대학명을 입력해 주세요. (예: 고려대, 한양대, 가천대 …)<br>'+
+        '수록된 82개 대학은 전년도와 차이점·전형방법·수시 수능최저학력기준·학생부반영방법이 담긴 원문 페이지를, '+
+        '그 외 대학은 요약 카드를 보여드립니다.</div>';
+      return;
+    }
+
+    if(!gy){
+      var univMatches = findUniv2028Matches(q);
+      if(univMatches.length){
+        renderUniv2028Gallery(univMatches);
+        return;
+      }
+    }
+
+    var seen = {};
+    var blocks = DATA.placement.filter(function(b){
+      if(gy && b.gyeyeol!==gy) return false;
+      if(q && b.univ.indexOf(q)<0) return false;
+      var key = b.univ+'|'+b.admission_name;
+      if(seen[key]) return false;
+      seen[key]=true;
+      return true;
+    });
+    blocks.sort(function(a,b){ return a.univ.localeCompare(b.univ,'ko'); });
+    var box = document.getElementById('featureList');
+    if(!blocks.length){ box.innerHTML = '<div class="empty">검색 결과가 없습니다.</div>'; return; }
+    var shown = blocks.slice(0, featShowCount);
+    var html = '<div class="hint" style="margin-bottom:10px;">총 '+blocks.length+'개 전형 중 '+shown.length+'개 표시'+(q?'':' · 대학명을 검색하면 더 빠르게 찾을 수 있습니다')+'</div>';
+    html += shown.map(function(b){
+      return '<div class="univ-card">'+
+        '<div class="headrow"><h3>'+esc(b.univ)+'</h3><span class="badge gyeyeol-'+b.gyeyeol+'">'+b.gyeyeol+' · '+b.jeonhyeong+'</span></div>'+
+        '<div class="meta">'+esc(b.admission_name||'')+'</div>'+
+        '<dl>'+
+          '<dt>전형방법</dt><dd>'+esc(b.admission_method||'-')+'</dd>'+
+          '<dt>수능최저</dt><dd>'+esc(b.csat_min||'없음')+'</dd>'+
+          '<dt>2028 특징</dt><dd>'+esc(b.features_2028||'특이사항 없음')+'</dd>'+
+        '</dl>'+
+      '</div>';
+    }).join('');
+    box.innerHTML = html;
+    if(blocks.length > shown.length){
+      var more = document.createElement('button');
+      more.className = 'ghost';
+      more.style.marginTop = '14px';
+      more.textContent = '더 보기 (' + (blocks.length - shown.length) + '건 더)';
+      more.addEventListener('click', function(){ featShowCount += 40; renderFeatures(false); });
+      box.appendChild(more);
+    }
+  }
+
+  /* ---------------- conversion table (guide tab) ---------------- */
+
+  function buildConvTable(){
+    var tbody = document.getElementById('convTableBody');
+    tbody.innerHTML = DATA.conv.map(function(row){
+      return '<tr><td class="num">'+row.g5.toFixed(2)+'</td><td class="num">상위 '+row.pct.toFixed(2)+'%</td><td class="num">'+row.g9.toFixed(2)+'</td></tr>';
+    }).join('');
+  }
+
+  function esc(s){
+    if(s===null || s===undefined) return '';
+    return String(s).replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+
+})();
+</script>
