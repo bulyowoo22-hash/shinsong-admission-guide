@@ -1,0 +1,797 @@
+{
+ "source": "쎈(SEN)진학-PreView 2028대입 전형시행계획 (서울특별시교육청교육연구정보원, 2026.5.26 발표)",
+ "note": "대학별 ① 전년도와 차이점 ② 전형방법 ③ 수시모집 최저학력기준 ④ 수시모집 학생부반영방법 등이 원문 그대로 포함되어 있습니다.",
+ "universities": [
+  {
+   "name": "가천대",
+   "start": 97,
+   "end": 100,
+   "images": [
+    "univ2028/p-097.jpg",
+    "univ2028/p-098.jpg",
+    "univ2028/p-099.jpg",
+    "univ2028/p-100.jpg"
+   ]
+  },
+  {
+   "name": "가톨릭대",
+   "start": 101,
+   "end": 104,
+   "images": [
+    "univ2028/p-101.jpg",
+    "univ2028/p-102.jpg",
+    "univ2028/p-103.jpg",
+    "univ2028/p-104.jpg"
+   ]
+  },
+  {
+   "name": "강남대",
+   "start": 105,
+   "end": 106,
+   "images": [
+    "univ2028/p-105.jpg",
+    "univ2028/p-106.jpg"
+   ]
+  },
+  {
+   "name": "강서대",
+   "start": 107,
+   "end": 107,
+   "images": [
+    "univ2028/p-107.jpg"
+   ]
+  },
+  {
+   "name": "강원대",
+   "start": 108,
+   "end": 113,
+   "images": [
+    "univ2028/p-108.jpg",
+    "univ2028/p-109.jpg",
+    "univ2028/p-110.jpg",
+    "univ2028/p-111.jpg",
+    "univ2028/p-112.jpg",
+    "univ2028/p-113.jpg"
+   ]
+  },
+  {
+   "name": "건국대",
+   "start": 114,
+   "end": 115,
+   "images": [
+    "univ2028/p-114.jpg",
+    "univ2028/p-115.jpg"
+   ]
+  },
+  {
+   "name": "건국대(글로컬)",
+   "start": 116,
+   "end": 117,
+   "images": [
+    "univ2028/p-116.jpg",
+    "univ2028/p-117.jpg"
+   ]
+  },
+  {
+   "name": "경기대",
+   "start": 118,
+   "end": 120,
+   "images": [
+    "univ2028/p-118.jpg",
+    "univ2028/p-119.jpg",
+    "univ2028/p-120.jpg"
+   ]
+  },
+  {
+   "name": "경동대(메트로폴)",
+   "start": 121,
+   "end": 122,
+   "images": [
+    "univ2028/p-121.jpg",
+    "univ2028/p-122.jpg"
+   ]
+  },
+  {
+   "name": "경북대",
+   "start": 123,
+   "end": 126,
+   "images": [
+    "univ2028/p-123.jpg",
+    "univ2028/p-124.jpg",
+    "univ2028/p-125.jpg",
+    "univ2028/p-126.jpg"
+   ]
+  },
+  {
+   "name": "경상국립대",
+   "start": 127,
+   "end": 130,
+   "images": [
+    "univ2028/p-127.jpg",
+    "univ2028/p-128.jpg",
+    "univ2028/p-129.jpg",
+    "univ2028/p-130.jpg"
+   ]
+  },
+  {
+   "name": "경희대",
+   "start": 131,
+   "end": 134,
+   "images": [
+    "univ2028/p-131.jpg",
+    "univ2028/p-132.jpg",
+    "univ2028/p-133.jpg",
+    "univ2028/p-134.jpg"
+   ]
+  },
+  {
+   "name": "고려대",
+   "start": 135,
+   "end": 137,
+   "images": [
+    "univ2028/p-135.jpg",
+    "univ2028/p-136.jpg",
+    "univ2028/p-137.jpg"
+   ]
+  },
+  {
+   "name": "고려대(세종)",
+   "start": 138,
+   "end": 140,
+   "images": [
+    "univ2028/p-138.jpg",
+    "univ2028/p-139.jpg",
+    "univ2028/p-140.jpg"
+   ]
+  },
+  {
+   "name": "광운대",
+   "start": 141,
+   "end": 143,
+   "images": [
+    "univ2028/p-141.jpg",
+    "univ2028/p-142.jpg",
+    "univ2028/p-143.jpg"
+   ]
+  },
+  {
+   "name": "국립공주대",
+   "start": 144,
+   "end": 147,
+   "images": [
+    "univ2028/p-144.jpg",
+    "univ2028/p-145.jpg",
+    "univ2028/p-146.jpg",
+    "univ2028/p-147.jpg"
+   ]
+  },
+  {
+   "name": "국민대",
+   "start": 148,
+   "end": 150,
+   "images": [
+    "univ2028/p-148.jpg",
+    "univ2028/p-149.jpg",
+    "univ2028/p-150.jpg"
+   ]
+  },
+  {
+   "name": "단국대",
+   "start": 151,
+   "end": 152,
+   "images": [
+    "univ2028/p-151.jpg",
+    "univ2028/p-152.jpg"
+   ]
+  },
+  {
+   "name": "단국대(천안)",
+   "start": 153,
+   "end": 155,
+   "images": [
+    "univ2028/p-153.jpg",
+    "univ2028/p-154.jpg",
+    "univ2028/p-155.jpg"
+   ]
+  },
+  {
+   "name": "대진대",
+   "start": 156,
+   "end": 157,
+   "images": [
+    "univ2028/p-156.jpg",
+    "univ2028/p-157.jpg"
+   ]
+  },
+  {
+   "name": "덕성여대",
+   "start": 158,
+   "end": 159,
+   "images": [
+    "univ2028/p-158.jpg",
+    "univ2028/p-159.jpg"
+   ]
+  },
+  {
+   "name": "동국대",
+   "start": 160,
+   "end": 162,
+   "images": [
+    "univ2028/p-160.jpg",
+    "univ2028/p-161.jpg",
+    "univ2028/p-162.jpg"
+   ]
+  },
+  {
+   "name": "동국대(WISE)",
+   "start": 163,
+   "end": 164,
+   "images": [
+    "univ2028/p-163.jpg",
+    "univ2028/p-164.jpg"
+   ]
+  },
+  {
+   "name": "동덕여대",
+   "start": 165,
+   "end": 166,
+   "images": [
+    "univ2028/p-165.jpg",
+    "univ2028/p-166.jpg"
+   ]
+  },
+  {
+   "name": "동양대(북서울)",
+   "start": 167,
+   "end": 167,
+   "images": [
+    "univ2028/p-167.jpg"
+   ]
+  },
+  {
+   "name": "명지대",
+   "start": 168,
+   "end": 171,
+   "images": [
+    "univ2028/p-168.jpg",
+    "univ2028/p-169.jpg",
+    "univ2028/p-170.jpg",
+    "univ2028/p-171.jpg"
+   ]
+  },
+  {
+   "name": "부산대",
+   "start": 172,
+   "end": 176,
+   "images": [
+    "univ2028/p-172.jpg",
+    "univ2028/p-173.jpg",
+    "univ2028/p-174.jpg",
+    "univ2028/p-175.jpg",
+    "univ2028/p-176.jpg"
+   ]
+  },
+  {
+   "name": "삼육대",
+   "start": 177,
+   "end": 178,
+   "images": [
+    "univ2028/p-177.jpg",
+    "univ2028/p-178.jpg"
+   ]
+  },
+  {
+   "name": "상명대",
+   "start": 179,
+   "end": 180,
+   "images": [
+    "univ2028/p-179.jpg",
+    "univ2028/p-180.jpg"
+   ]
+  },
+  {
+   "name": "상명대(천안)",
+   "start": 181,
+   "end": 182,
+   "images": [
+    "univ2028/p-181.jpg",
+    "univ2028/p-182.jpg"
+   ]
+  },
+  {
+   "name": "서강대",
+   "start": 183,
+   "end": 185,
+   "images": [
+    "univ2028/p-183.jpg",
+    "univ2028/p-184.jpg",
+    "univ2028/p-185.jpg"
+   ]
+  },
+  {
+   "name": "서경대",
+   "start": 186,
+   "end": 187,
+   "images": [
+    "univ2028/p-186.jpg",
+    "univ2028/p-187.jpg"
+   ]
+  },
+  {
+   "name": "서울과학기술대",
+   "start": 188,
+   "end": 190,
+   "images": [
+    "univ2028/p-188.jpg",
+    "univ2028/p-189.jpg",
+    "univ2028/p-190.jpg"
+   ]
+  },
+  {
+   "name": "서울대",
+   "start": 191,
+   "end": 194,
+   "images": [
+    "univ2028/p-191.jpg",
+    "univ2028/p-192.jpg",
+    "univ2028/p-193.jpg",
+    "univ2028/p-194.jpg"
+   ]
+  },
+  {
+   "name": "서울시립대",
+   "start": 195,
+   "end": 197,
+   "images": [
+    "univ2028/p-195.jpg",
+    "univ2028/p-196.jpg",
+    "univ2028/p-197.jpg"
+   ]
+  },
+  {
+   "name": "서울여대",
+   "start": 198,
+   "end": 199,
+   "images": [
+    "univ2028/p-198.jpg",
+    "univ2028/p-199.jpg"
+   ]
+  },
+  {
+   "name": "성결대",
+   "start": 200,
+   "end": 201,
+   "images": [
+    "univ2028/p-200.jpg",
+    "univ2028/p-201.jpg"
+   ]
+  },
+  {
+   "name": "성공회대",
+   "start": 202,
+   "end": 203,
+   "images": [
+    "univ2028/p-202.jpg",
+    "univ2028/p-203.jpg"
+   ]
+  },
+  {
+   "name": "성균관대",
+   "start": 204,
+   "end": 207,
+   "images": [
+    "univ2028/p-204.jpg",
+    "univ2028/p-205.jpg",
+    "univ2028/p-206.jpg",
+    "univ2028/p-207.jpg"
+   ]
+  },
+  {
+   "name": "성신여대",
+   "start": 208,
+   "end": 210,
+   "images": [
+    "univ2028/p-208.jpg",
+    "univ2028/p-209.jpg",
+    "univ2028/p-210.jpg"
+   ]
+  },
+  {
+   "name": "세종대",
+   "start": 211,
+   "end": 213,
+   "images": [
+    "univ2028/p-211.jpg",
+    "univ2028/p-212.jpg",
+    "univ2028/p-213.jpg"
+   ]
+  },
+  {
+   "name": "수원대",
+   "start": 214,
+   "end": 215,
+   "images": [
+    "univ2028/p-214.jpg",
+    "univ2028/p-215.jpg"
+   ]
+  },
+  {
+   "name": "숙명여대",
+   "start": 216,
+   "end": 217,
+   "images": [
+    "univ2028/p-216.jpg",
+    "univ2028/p-217.jpg"
+   ]
+  },
+  {
+   "name": "숭실대",
+   "start": 218,
+   "end": 219,
+   "images": [
+    "univ2028/p-218.jpg",
+    "univ2028/p-219.jpg"
+   ]
+  },
+  {
+   "name": "신한대",
+   "start": 220,
+   "end": 221,
+   "images": [
+    "univ2028/p-220.jpg",
+    "univ2028/p-221.jpg"
+   ]
+  },
+  {
+   "name": "아주대",
+   "start": 222,
+   "end": 224,
+   "images": [
+    "univ2028/p-222.jpg",
+    "univ2028/p-223.jpg",
+    "univ2028/p-224.jpg"
+   ]
+  },
+  {
+   "name": "안양대",
+   "start": 225,
+   "end": 226,
+   "images": [
+    "univ2028/p-225.jpg",
+    "univ2028/p-226.jpg"
+   ]
+  },
+  {
+   "name": "연세대",
+   "start": 227,
+   "end": 229,
+   "images": [
+    "univ2028/p-227.jpg",
+    "univ2028/p-228.jpg",
+    "univ2028/p-229.jpg"
+   ]
+  },
+  {
+   "name": "연세대(미래)",
+   "start": 230,
+   "end": 231,
+   "images": [
+    "univ2028/p-230.jpg",
+    "univ2028/p-231.jpg"
+   ]
+  },
+  {
+   "name": "용인대",
+   "start": 232,
+   "end": 233,
+   "images": [
+    "univ2028/p-232.jpg",
+    "univ2028/p-233.jpg"
+   ]
+  },
+  {
+   "name": "을지대",
+   "start": 234,
+   "end": 235,
+   "images": [
+    "univ2028/p-234.jpg",
+    "univ2028/p-235.jpg"
+   ]
+  },
+  {
+   "name": "이화여대",
+   "start": 236,
+   "end": 238,
+   "images": [
+    "univ2028/p-236.jpg",
+    "univ2028/p-237.jpg",
+    "univ2028/p-238.jpg"
+   ]
+  },
+  {
+   "name": "인천가톨릭대",
+   "start": 239,
+   "end": 239,
+   "images": [
+    "univ2028/p-239.jpg"
+   ]
+  },
+  {
+   "name": "인천대",
+   "start": 240,
+   "end": 241,
+   "images": [
+    "univ2028/p-240.jpg",
+    "univ2028/p-241.jpg"
+   ]
+  },
+  {
+   "name": "인하대",
+   "start": 242,
+   "end": 244,
+   "images": [
+    "univ2028/p-242.jpg",
+    "univ2028/p-243.jpg",
+    "univ2028/p-244.jpg"
+   ]
+  },
+  {
+   "name": "전남대",
+   "start": 245,
+   "end": 248,
+   "images": [
+    "univ2028/p-245.jpg",
+    "univ2028/p-246.jpg",
+    "univ2028/p-247.jpg",
+    "univ2028/p-248.jpg"
+   ]
+  },
+  {
+   "name": "전북대",
+   "start": 249,
+   "end": 251,
+   "images": [
+    "univ2028/p-249.jpg",
+    "univ2028/p-250.jpg",
+    "univ2028/p-251.jpg"
+   ]
+  },
+  {
+   "name": "제주대",
+   "start": 252,
+   "end": 254,
+   "images": [
+    "univ2028/p-252.jpg",
+    "univ2028/p-253.jpg",
+    "univ2028/p-254.jpg"
+   ]
+  },
+  {
+   "name": "중부대(고양)",
+   "start": 255,
+   "end": 256,
+   "images": [
+    "univ2028/p-255.jpg",
+    "univ2028/p-256.jpg"
+   ]
+  },
+  {
+   "name": "중앙대",
+   "start": 257,
+   "end": 260,
+   "images": [
+    "univ2028/p-257.jpg",
+    "univ2028/p-258.jpg",
+    "univ2028/p-259.jpg",
+    "univ2028/p-260.jpg"
+   ]
+  },
+  {
+   "name": "차의과학대",
+   "start": 261,
+   "end": 262,
+   "images": [
+    "univ2028/p-261.jpg",
+    "univ2028/p-262.jpg"
+   ]
+  },
+  {
+   "name": "총신대",
+   "start": 263,
+   "end": 264,
+   "images": [
+    "univ2028/p-263.jpg",
+    "univ2028/p-264.jpg"
+   ]
+  },
+  {
+   "name": "충남대",
+   "start": 265,
+   "end": 268,
+   "images": [
+    "univ2028/p-265.jpg",
+    "univ2028/p-266.jpg",
+    "univ2028/p-267.jpg",
+    "univ2028/p-268.jpg"
+   ]
+  },
+  {
+   "name": "충북대",
+   "start": 269,
+   "end": 271,
+   "images": [
+    "univ2028/p-269.jpg",
+    "univ2028/p-270.jpg",
+    "univ2028/p-271.jpg"
+   ]
+  },
+  {
+   "name": "평택대",
+   "start": 272,
+   "end": 273,
+   "images": [
+    "univ2028/p-272.jpg",
+    "univ2028/p-273.jpg"
+   ]
+  },
+  {
+   "name": "한경국립대",
+   "start": 274,
+   "end": 276,
+   "images": [
+    "univ2028/p-274.jpg",
+    "univ2028/p-275.jpg",
+    "univ2028/p-276.jpg"
+   ]
+  },
+  {
+   "name": "한국공학대",
+   "start": 277,
+   "end": 278,
+   "images": [
+    "univ2028/p-277.jpg",
+    "univ2028/p-278.jpg"
+   ]
+  },
+  {
+   "name": "한국교원대",
+   "start": 279,
+   "end": 280,
+   "images": [
+    "univ2028/p-279.jpg",
+    "univ2028/p-280.jpg"
+   ]
+  },
+  {
+   "name": "한국교통대",
+   "start": 281,
+   "end": 282,
+   "images": [
+    "univ2028/p-281.jpg",
+    "univ2028/p-282.jpg"
+   ]
+  },
+  {
+   "name": "한국기술교대",
+   "start": 283,
+   "end": 284,
+   "images": [
+    "univ2028/p-283.jpg",
+    "univ2028/p-284.jpg"
+   ]
+  },
+  {
+   "name": "한국성서대",
+   "start": 285,
+   "end": 286,
+   "images": [
+    "univ2028/p-285.jpg",
+    "univ2028/p-286.jpg"
+   ]
+  },
+  {
+   "name": "한국외국어대",
+   "start": 287,
+   "end": 289,
+   "images": [
+    "univ2028/p-287.jpg",
+    "univ2028/p-288.jpg",
+    "univ2028/p-289.jpg"
+   ]
+  },
+  {
+   "name": "한국항공대",
+   "start": 290,
+   "end": 291,
+   "images": [
+    "univ2028/p-290.jpg",
+    "univ2028/p-291.jpg"
+   ]
+  },
+  {
+   "name": "한성대",
+   "start": 292,
+   "end": 293,
+   "images": [
+    "univ2028/p-292.jpg",
+    "univ2028/p-293.jpg"
+   ]
+  },
+  {
+   "name": "한세대",
+   "start": 294,
+   "end": 295,
+   "images": [
+    "univ2028/p-294.jpg",
+    "univ2028/p-295.jpg"
+   ]
+  },
+  {
+   "name": "한신대",
+   "start": 296,
+   "end": 297,
+   "images": [
+    "univ2028/p-296.jpg",
+    "univ2028/p-297.jpg"
+   ]
+  },
+  {
+   "name": "한양대",
+   "start": 298,
+   "end": 301,
+   "images": [
+    "univ2028/p-298.jpg",
+    "univ2028/p-299.jpg",
+    "univ2028/p-300.jpg",
+    "univ2028/p-301.jpg"
+   ]
+  },
+  {
+   "name": "한양대(ERICA)",
+   "start": 302,
+   "end": 304,
+   "images": [
+    "univ2028/p-302.jpg",
+    "univ2028/p-303.jpg",
+    "univ2028/p-304.jpg"
+   ]
+  },
+  {
+   "name": "협성대",
+   "start": 305,
+   "end": 306,
+   "images": [
+    "univ2028/p-305.jpg",
+    "univ2028/p-306.jpg"
+   ]
+  },
+  {
+   "name": "홍익대",
+   "start": 307,
+   "end": 308,
+   "images": [
+    "univ2028/p-307.jpg",
+    "univ2028/p-308.jpg"
+   ]
+  },
+  {
+   "name": "홍익대(세종)",
+   "start": 309,
+   "end": 310,
+   "images": [
+    "univ2028/p-309.jpg",
+    "univ2028/p-310.jpg"
+   ]
+  },
+  {
+   "name": "화성의과학대",
+   "start": 311,
+   "end": 313,
+   "images": [
+    "univ2028/p-311.jpg",
+    "univ2028/p-312.jpg",
+    "univ2028/p-313.jpg"
+   ]
+  }
+ ]
+}
